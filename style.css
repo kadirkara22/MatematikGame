@@ -1,0 +1,91 @@
+body{
+    color: #fff;
+    background: #573334;
+}
+#game{
+     width: 700px;
+    background: #222222;
+    padding: 18px;
+    text-align: center;
+    margin: auto;
+}
+#player1{
+    width: 350px;
+    height: 200px;
+    background-color: blue;
+    display: flexbox;
+    float: left;
+   
+}
+#player2{
+    width: 350px;
+    height: 200px;
+    background-color: rgb(203, 216, 18);
+    display: inline-block;
+    
+    
+}
+h1{
+    margin: 0 0 18px 0;
+    border: solid 1px #fff;
+    padding: 5px;
+    font-weight: 600px;
+
+}
+span{
+    font-size: 125%;
+    padding: 12px;
+
+}
+#result1{
+    width: 60px;
+    height: 50px;
+}
+#answer1{
+    height: 50px;
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    width: 100px;
+    background: #565613;
+    color: #fff;
+}
+#result2{
+    width: 60px;
+    height: 50px;
+}
+#answer2{
+    height: 50px;
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    width: 100px;
+    background: #565613;
+    color: #fff;
+}
+#answer1:hover{
+    background: #0C5F17;
+}
+#answer2:hover{
+    background: #0C5F17;
+}
+#True1,#False1{
+    font-size: 150%;
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
+    
+}
+#True2,#False2{
+    font-size: 150%;
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
+    
+}
+#True1,#True2{
+    background: #1C9605;
+}
+#False1,#False2{
+    background:#BD0C0C;
+}
